@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#121111"
+    android:background="#673AB7"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -54,9 +54,10 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#F3EFEF"
+        android:background="#673AB7"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textColor="#F3EFEF"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
